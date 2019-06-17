@@ -1,0 +1,965 @@
+
+
+.color-navbar {
+    background-color: white !important;
+}
+.home_background {
+    background-color: white;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: white;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: white;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: white;
+    }
+  }
+  /**Navbar**/
+.navbar .container a img {
+    width: 170px;
+}
+/**Menu Navbar**/
+.collapse .btn-blog {
+    padding-right: 10px;
+}
+.collapse .btn-contact {
+    background-color: #F6921E;
+    border-radius: 15px;
+    width: 120px;
+    text-align: center;
+    border-bottom: none;
+}
+.collapse .btn-contact:hover {
+    border-bottom: none;
+    background-color: rgb(247, 144, 26);
+    color: white;
+}
+.item-color {
+    color: #F6921E !important;
+}
+
+.navbar-nav  a:hover {
+    border-bottom: 2px solid #BE1E2D;
+    
+}
+.navbar-nav  a.active {
+    border-bottom: 2px solid #BE1E2D;
+
+    
+}
+.navbar-toggler i {
+    color: #0077DE !important;
+}
+
+/** Home Pages **/
+/*=============================**/
+/** Home Header**/
+.home_background h2 {
+    margin-top: 250px;
+    font-size: 40px;
+    padding-left: 35px;
+    color: #BE1E2D;
+}
+.home_background p {
+    /* font-size: 40px; */
+    padding-left: 35px;
+    color: #BE1E2D;
+}
+.home_background .btn-mulai button{
+    background-color: #F6921E !important;
+    border-radius: 15px;
+    color: white;
+    margin-left: 35px;
+}
+.home_background .row {
+    flex-wrap: nowrap;
+}
+.gambar_header-home img {
+    margin-top: 100px;
+    margin-right: -15px;
+    padding-right: 0;
+    width: 100%;
+    float: right;
+    /* height: 100%; */
+}
+@media only screen and (max-width:768px){
+    .home_background h2 {
+        margin-top: 120px;
+        font-size: 15px;
+        padding-left: 5px;
+        color: #BE1E2D;
+    }
+    .home_background p {
+        font-size: 15px;
+        /* padding-left: 35px; */
+        padding-left: 5px;
+        color: #BE1E2D;
+    }
+    .home_background .btn-mulai button{
+        background-color: #F6921E !important;
+        border-radius: 15px;
+        color: white;
+        margin-left: 0px;
+    }
+    .gambar_header-home img {
+        margin-top: 120px;
+        margin-right: -15px;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        float: right;
+        /* height: 100%; */
+    }
+}
+
+/*=============================**/
+/**Content Home**/
+#section-1 {
+    background-color: #F2F2F2;
+}
+#section-1 .judul_section_1 h2 {
+    color: #F6921E;
+    padding-top: 25px;
+}
+#section-1 .judul_section_1 h4 {
+    color: #BE1E2D;
+    font-size: 20px;
+}
+.custom__card-1 {
+    margin-bottom: 50px;
+    -webkit-box-shadow: 10px 10px 10px -6px orange;
+	   -moz-box-shadow: 10px 10px 8px -6px orange;
+	        box-shadow: 0 10px 6px -6px orange;;
+}
+.custom__card-2 {
+    margin-bottom: 50px;
+    -webkit-box-shadow: 10px 10px 10px -6px orange;
+	   -moz-box-shadow: 10px 10px 8px -6px orange;
+	        box-shadow: 0 10px 6px -6px orange;;
+}
+.custom__card-3 {
+    margin-bottom: 50px;
+    -webkit-box-shadow: 10px 10px 10px -6px orange;
+	   -moz-box-shadow: 10px 10px 8px -6px orange;
+	        box-shadow: 0 10px 6px -6px orange;;
+}
+.custom__card-4 {
+    margin-bottom: 50px;
+    -webkit-box-shadow: 10px 10px 10px -6px orange;
+	   -moz-box-shadow: 10px 10px 8px -6px orange;
+	        box-shadow: 0 10px 6px -6px orange;;
+}
+
+.custom__card-1 {
+    background-image: url('../img/tutor_kelasbahasa_1.jpg');
+    width: 100%;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom__card-2 {
+    background-image: url('../img/tutor_kelasbahasa_2.jpg');
+    width: 100%;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom__card-3 {
+    background-image: url('../img/tutor_kelasbahasa_3.jpg');
+    width: 100%;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom__card-4 {
+    background-image: url('../img/tutor_kelasbahasa_3.jpg');
+    width: 100%;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.myslider-content-slick .img__card-tutor img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 0px;
+    /* height: 100%; */
+}
+
+.content__background-tutor .tutor__list-asal {
+    width: 200px;
+    height: 80px;
+    float: right;
+    margin-top: 280px;
+}
+.content__background-tutor .tutor__list-asal .card-body img {
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-right: -20px;
+}
+.custom__card-body_tutor .tutor__kelasbahasa-details h4 {
+    font-size: 20px;
+    padding-top: 10px;
+    color: #5D5C5C;
+}
+.custom__card-body_tutor .tutor__kelasbahasa-details p {
+    font-size: 15px;
+    color: #5D5C5C;
+}
+.tutor__ruang-bahasa .button__tutorkelasbahasa__find button{
+    
+    margin-bottom: 50px;
+    background-color: #F6921E !important;
+    border-radius: 15px;
+    color: white;
+    margin-left: 35px;
+
+}
+@media only screen and (max-width:768px){
+    .content__background-tutor .tutor__list-asal {
+        width: 200px;
+        height: 80px;
+        float: right;
+        margin-top: 284px;
+    }
+    .content__background-tutor .tutor__list-asal .card-body img {
+        width: 60px;
+        height: 60px;
+        padding-top: 15px;
+    }
+    .custom__card-body_tutor .tutor__kelasbahasa-details h4 {
+        font-size: 20px;
+        padding-top: 10px;
+        color: #5D5C5C;
+    }
+    .custom__card-body_tutor .tutor__kelasbahasa-details p {
+        font-size: 15px;
+        color: #5D5C5C;
+    }
+    .layouts__size-android {
+        max-width: 40% !important;
+    }
+}
+
+/**====================================**/
+/** SECTION 2 **/
+#section-2 .judul__section-2-kelas__bahasa h2 {
+    color: #F6921E
+}
+.choose__kebutuhan-customer {
+    width: 100%;
+}
+/** KARIR **/
+.choose__kebutuhan-customer .row {
+    flex-wrap: nowrap !important;
+}
+.choose__kebutuhan-customer #karir {
+    width: 100px;
+}
+.choose__kebutuhan-customer .kebutuhan__customer-kelasbahasa .__karir {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: -1px;
+}
+.choose__kebutuhan-customer .kebutuhan__customer-kelasbahasa .deep-purple {
+    background-color: #BE1E2D !important;
+    margin-bottom: -20px;
+}
+
+.choose__kebutuhan-customer .kebutuhan__customer-kelasbahasa .deskripsi__Karir {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+/** Jalan Jalan **/
+.choose__kebutuhan-customer .list__kebutuhan-jalan-jalan #jalan-jalan {
+    width: 100px;
+} 
+.choose__kebutuhan-customer .list__kebutuhan-jalan-jalan .__jalanjalan {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: -1px
+} 
+.choose__kebutuhan-customer .list__kebutuhan-jalan-jalan .deskripsi__jalanjalan {
+    font-family: sans-serif;
+    font-size: 15px;
+} 
+
+/** AKADEMIK **/
+.choose__kebutuhan-customer .list__kebutuhan-akademik #akademik {
+    width: 100px;
+} 
+.choose__kebutuhan-customer .list__kebutuhan-akademik .__akademik {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: -1px
+} 
+.choose__kebutuhan-customer .list__kebutuhan-akademik .deskripsi__akademik {
+    font-family: sans-serif;
+    font-size: 15px;
+} 
+
+/** HOBI **/
+.choose__kebutuhan-customer .list__kebutuhan-hobi #hobi {
+    width: 100px;
+} 
+.choose__kebutuhan-customer .list__kebutuhan-hobi .__hobi {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: -1px
+} 
+.choose__kebutuhan-customer .list__kebutuhan-hobi .deskripsi__hobi {
+    font-family: sans-serif;
+    font-size: 15px;
+} 
+@media only screen and (max-width:768px){    
+    .choose__kebutuhan-customer .row {
+        flex-wrap: wrap !important;
+    }
+    /**KARIR**/
+    .choose__kebutuhan-customer #karir {
+        width: 100px;
+        margin-left: 40%;
+        margin-bottom: 10px;
+    }
+    .choose__kebutuhan-customer .kebutuhan__customer-kelasbahasa .__karir {
+        font-family: sans-serif;
+        font-size: 25px;
+        margin-bottom: -1px;
+        margin-left: 40%;
+    }
+    .choose__kebutuhan-customer .kebutuhan__customer-kelasbahasa .deep-purple {
+        background-color: #BE1E2D !important;
+        margin-bottom: -20px;
+        margin-left: 40% !important;
+    }
+    
+    .choose__kebutuhan-customer .kebutuhan__customer-kelasbahasa .deskripsi__Karir {
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-left: 10%;
+    }
+
+    /** JALAN JALAN **/
+    .choose__kebutuhan-customer .list__kebutuhan-jalan-jalan #jalan-jalan {
+        width: 100px;
+        margin-left: 40%;
+        margin-bottom: 10px;
+    } 
+    .choose__kebutuhan-customer .list__kebutuhan-jalan-jalan .deep-purple {
+        background-color: #BE1E2D !important;
+        margin-bottom: -20px;
+        margin-left: 30% !important;
+    }
+    .choose__kebutuhan-customer .list__kebutuhan-jalan-jalan .__jalanjalan {
+        font-family: sans-serif;
+        font-size: 25px;
+        margin-bottom: -1px;
+        margin-left: 30%;
+    } 
+    .choose__kebutuhan-customer .list__kebutuhan-jalan-jalan .deskripsi__jalanjalan {
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-left: 10%;
+    }
+    /** AKADEMIK **/
+    .choose__kebutuhan-customer .list__kebutuhan-akademik #akademik {
+        width: 100px;
+        margin-left: 40%;
+        margin-bottom: 10px;
+    } 
+    .choose__kebutuhan-customer .list__kebutuhan-akademik .deep-purple {
+        background-color: #BE1E2D !important;
+        margin-bottom: -20px;
+        margin-left: 35% !important;
+    }
+    .choose__kebutuhan-customer .list__kebutuhan-akademik .__akademik {
+        font-family: sans-serif;
+        font-size: 25px;
+        margin-bottom: -1px;
+        margin-left: 35%;
+    } 
+    .choose__kebutuhan-customer .list__kebutuhan-akademik .deskripsi__akademik {
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-left: 10%;
+    } 
+    /** HOBI **/
+    .choose__kebutuhan-customer .list__kebutuhan-hobi #hobi {
+        width: 100px;
+        margin-left: 40%;
+        margin-bottom: 10px;
+    } 
+    .choose__kebutuhan-customer .list__kebutuhan-hobi .deep-purple {
+        background-color: #BE1E2D !important;
+        margin-bottom: -20px;
+        margin-left: 45% !important;
+    }
+    .choose__kebutuhan-customer .list__kebutuhan-hobi .__hobi {
+        font-family: sans-serif;
+        font-size: 25px;
+        margin-bottom: -1px;
+        margin-left: 45%;
+    } 
+    .choose__kebutuhan-customer .list__kebutuhan-hobi .deskripsi__hobi {
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-left: 10%;
+    } 
+}
+
+/**====================================**/
+/** SECTION 3 **/
+#section-3 {
+    background-image: url('../img/background_halloworld.png');
+    width: 100%;
+
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section-3 .hallo_world__judul-text {
+    padding-top: 200px;
+}
+#section-3 .hallo_world__judul-text h2 {
+    color: whitesmoke;
+}
+/** HalloWORLD 1 **/
+#section-3 .content__halloworld .kebutuhan__img {
+    width: 250px;
+    height: 250px;
+}
+#section-3 .content__halloworld .text_halloworld-kebutuhan {
+    font-size: 28px;
+    color: white;
+    padding-top: 60px;
+}
+#section-3 .content__halloworld .deskripsi__halloworld-kebutuhan {
+    color: whitesmoke !important;
+}
+
+/** HalloWORLD 2 **/
+#section-3 .content__halloworld .kebutuhan__img-2 {
+    width: 250px;
+    height: 150px;
+}
+#section-3 .content__halloworld .text_halloworld-kebutuhan-2 {
+    font-size: 28px;
+    color: white;
+}
+#section-3 .content__halloworld .deskripsi__halloworld-kebutuhan-2 {
+    color: whitesmoke !important;
+}
+
+/** HalloWORLD 3 **/
+#section-3 .content__halloworld .left__content-halloworld-3 {
+    padding-bottom: 50px;
+}
+#section-3 .content__halloworld .kebutuhan__img-3 {
+    width: 250px;
+    height: 250px;
+}
+#section-3 .content__halloworld .text_halloworld-kebutuhan-3 {
+    font-size: 28px;
+    color: white;
+    padding-top: 60px;
+}
+#section-3 .content__halloworld .deskripsi__halloworld-kebutuhan-3 {
+    color: whitesmoke !important;
+}
+@media only screen and (max-width:768px){    
+    #section-3 .hallo_world__judul-text {
+        padding-top: 250px;
+    }
+    #section-3 .content__halloworld .kebutuhan__img {
+        width: 250px;
+        height: 250px;
+        margin-left: 20%;
+    }
+    #section-3 .content__halloworld .text_halloworld-kebutuhan {
+        font-size: 28px;
+        color: white;
+        padding-top: 60px;
+        margin-left: 20%;
+    }
+    #section-3 .content__halloworld .deskripsi__halloworld-kebutuhan {
+        color: whitesmoke !important;
+        margin-left: 15%;
+    }
+    /** HalloWORLD 2 **/
+    #section-3 .content__halloworld .kebutuhan__img-2 {
+        width: 250px;
+        height: 150px;
+        margin-left: 20%;
+    }
+    #section-3 .content__halloworld .text_halloworld-kebutuhan-2 {
+        font-size: 28px;
+        color: white;
+        margin-left: 15%;
+    }
+    #section-3 .content__halloworld .deskripsi__halloworld-kebutuhan-2 {
+        color: whitesmoke !important;
+        margin-left: 10%;
+    }
+    /** HalloWORLD 3 **/
+
+    #section-3 .content__halloworld .kebutuhan__img-3 {
+        width: 250px;
+        height: 250px;
+        margin-left: 15%;
+    }
+    #section-3 .content__halloworld .text_halloworld-kebutuhan-3 {
+        font-size: 28px;
+        color: white;
+        padding-top: 60px;
+        margin-left: 35%;
+    }
+    #section-3 .content__halloworld .deskripsi__halloworld-kebutuhan-3 {
+        color: whitesmoke !important;
+        margin-left: 10%;
+    }
+}
+/** END SECTION 3 **/
+/**====================================**/
+
+/**====================================**/
+/** SECTION 4 **/
+#section-4 .judul__mendaftar-pages {
+    color: #F6921E;
+}
+/** Mendaftar Pages 1**/
+#section-4 .right__content-mendaftar-1 .row {
+    margin-bottom: -20px;
+}
+#section-4 .content__mendaftar-kelasbahasa .mendaftar__img-1 {
+    width: 250px;
+    height: 250px;
+}
+#section-4 .content__mendaftar-kelasbahasa .text_halloworld-mendaftar-1 {
+    font-size: 28px;
+    color: #EE4036;
+    padding-top: 60px;
+}
+#section-4 .content__mendaftar-kelasbahasa .deskripsi__halloworld-mendaftar-1 {
+    color: #EE4036 !important;
+    
+}
+
+/** Mendaftar Pages 2**/
+#section-4 .left__content-mendaftar-2 .row {
+    margin-bottom: -80px;
+}
+#section-4 .content__mendaftar-kelasbahasa .mendaftar__img-2 {
+    width: 250px;
+    height: 250px;
+}
+#section-4 .content__mendaftar-kelasbahasa .text_halloworld-mendaftar-2 {
+    font-size: 28px;
+    color: #EE4036;
+    padding-top: 0px;
+}
+#section-4 .content__mendaftar-kelasbahasa .deskripsi__halloworld-mendaftar-2 {
+    color: #EE4036 !important;
+   
+}
+
+/** Mendaftar Pages 3 **/
+#section-4 .content__mendaftar-kelasbahasa .mendaftar__img-3 {
+    width: 250px;
+    height: 250px;
+}
+#section-4 .content__mendaftar-kelasbahasa .text_halloworld-mendaftar-3 {
+    font-size: 28px;
+    color: #EE4036;
+    padding-top: 0px;
+}
+#section-4 .content__mendaftar-kelasbahasa .deskripsi__halloworld-mendaftar-3 {
+    color: #EE4036 !important;
+}
+
+@media only screen and (max-width:768px){    
+    /** Mendaftar Pages 1**/
+    #section-4 .right__content-mendaftar-1 .row {
+        margin-bottom: 20px;
+    }
+    
+    #section-4 .content__mendaftar-kelasbahasa .mendaftar__img-1 {
+        width: 250px;
+        height: 250px;
+        margin-left: 20%;
+    }
+    #section-4 .content__mendaftar-kelasbahasa .text_halloworld-mendaftar-1 {
+        font-size: 28px;
+        color: #EE4036;
+        padding-top: 60px;
+        margin-left: 30%;
+    }
+    #section-4 .content__mendaftar-kelasbahasa .deskripsi__halloworld-mendaftar-1 {
+        color: #EE4036 !important;
+        margin-left: 10%;
+    }
+
+    /** Mendaftar Pages 2**/
+    #section-4 .left__content-mendaftar-2 .row {
+        margin-bottom: 20px;
+    }
+    #section-4 .content__mendaftar-kelasbahasa .mendaftar__img-2 {
+        width: 250px;
+        height: 250px;
+        margin-left: 15%;
+    }
+    #section-4 .content__mendaftar-kelasbahasa .text_halloworld-mendaftar-2 {
+        font-size: 28px;
+        color: #EE4036;
+        padding-top: 15px;
+        margin-left: 30%;
+    }
+    #section-4 .content__mendaftar-kelasbahasa .deskripsi__halloworld-mendaftar-2 {
+        color: #EE4036 !important;
+        margin-left: 10%;
+    }
+
+    /** Mendaftar Pages 3 **/
+    #section-4 .content__mendaftar-kelasbahasa .mendaftar__img-3 {
+        width: 250px;
+        height: 250px;
+        margin-left: 20%;
+    }
+    #section-4 .content__mendaftar-kelasbahasa .text_halloworld-mendaftar-3 {
+        font-size: 28px;
+        color: #EE4036;
+        padding-top: 0px;
+        margin-left: 30%;
+    }
+    #section-4 .content__mendaftar-kelasbahasa .deskripsi__halloworld-mendaftar-3 {
+        color: #EE4036 !important;
+        margin-left: 10%;
+    }
+}
+/** END SECTION 4 **/
+/**====================================**/
+
+/**====================================**/
+/** SECTION 5 **/
+#section-5 {
+    background-image: url('../img/section_4-background.png');
+    width: 100%;
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section-5 .judul__section-5-kelasbahasa {
+    padding-top: 5%;
+    padding-left: 100px;
+}
+#section-5 .judul__section-5-kelasbahasa h2 {
+    color: white;
+}
+@media only screen and (max-width:768px){    
+    #section-5 .judul__section-5-kelasbahasa {
+        padding-top: 15%;
+        padding-left: 5px;
+    }
+    #section-5 .judul__section-5-kelasbahasa .text-section-1 {
+        font-size: 25px;
+    }
+    #section-5 .judul__section-5-kelasbahasa .text-section-2 {
+        font-size: 25px;
+    }
+}
+/** END SECTION 5 **/
+/**====================================**/
+
+/**====================================**/
+/** SECTION 6 **/
+#section-6 .judul__content-section-6 h2 {
+    color: #F6921E;
+}
+
+#section-6 .content__section-6 p {
+    color: #F6921E;
+}
+
+#section-6 .btn__section-6 .btn__section-6__kelasbahasa {
+    background-color: #F6921E;
+    border-radius: 15px;
+    color: white;
+}
+/** END SECTION 6 **/
+/**====================================**/
+
+/**====================================**/
+/** SECTION 7 **/
+#section-7 {
+    background-image: url('../img/background_7.png');
+    width: 100%;
+    height: 800px;
+
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+#section-7 .judul__testimoni__section7 h2 {
+    padding-top: 145px;
+    color: white;
+}
+
+.background__testimoni-section7 {
+    width: 500px;
+    height: 280px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 70px;
+    margin-right: 300px;
+    padding-top: 20px;
+    padding-right: 100px;
+    border-radius: .25rem;
+    float: right;
+}
+#section-7 .slider__content-testimoni .item_slider-testimoni {
+    width: 590px;
+    height: 350px;
+    margin-left: -80px;
+    margin-right: 300px;
+    background-color: white;
+}
+#section-7 .background__testimoni-section7 .slider__content-testimoni img{
+    width: 80px;
+    height: 150px;
+    margin-left: 235px;
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+
+#section-7 .testimoni__ {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#section-7 .testimoni__by__Customer .customer__ {
+    font-weight: 400px !important;
+}
+
+.button_testimon-section-7 .btn-testimoni {
+    width: 190px;
+    background-color: #F6921E;
+    color: white;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width:768px){
+    .background__testimoni-section7 {
+        width: 400px;
+        height: 280px;
+        background-color: rgba(255, 255, 255, 0.4);
+        margin-top: 70px;
+        margin-right: 20px;
+        padding-top: 20px;
+        padding-right: 100px;
+        border-radius: .25rem;
+        float: right;
+    }
+    #section-7 .slider__content-testimoni .item_slider-testimoni {
+        width: 420px;
+        height: 300px;
+        margin-left: -20px;
+        margin-right: 300px;
+        background-color: white;
+    }
+    #section-7 .judul__testimoni__section7 h2 {
+        font-size: 22px !important;
+        padding-top: 50px;
+        margin-top: 110px;
+        color: white;
+    }
+    #section-7 .background__testimoni-section7 .slider__content-testimoni img{
+        width: 80px;
+        height: 150px;
+        margin-left: 160px;
+        margin-top: -10px;
+        margin-bottom: -50px;
+    }
+}
+
+/** END SECTION 7 **/
+/**====================================**/
+
+
+/**====================================**/
+/** FOOTER base blade**/
+.page-footer .halloworld img {
+    width: 200px;
+}
+.page-footer .halloworld .link__halloworld-footer {
+    padding-left: 50px;
+}
+
+.page-footer .mb_3{
+    margin-bottom: 0px;
+}
+.page-footer .mt_2{
+    margin-top: 5px;
+}
+
+/** END FOOTER base blade **/
+/**====================================**/
+
+/**====================================**/
+/** MODAL LOGIN **/
+.modal-content {
+    background-color: #F6921E !important;
+}
+.modal .modal-content .modal-header {
+    border-bottom: none;
+}
+
+.modal .modal-content .modal-header img {
+    width: 350px;
+    padding-left: 100px;
+}
+.modal .modal-content .modal-header span {
+    color: white;
+}
+.modal .modal-content .modal-body .login_with__ p {
+    color: white;
+}
+.modal .modal-content .modal-body .btn__with-login-facebook .btn-facebook {
+    width: 180px;
+    border-radius: 10px;
+    background-color: #0b51c5;
+}
+.modal .modal-content .modal-body .btn__with-login-facebook .btn-facebook:hover {
+    width: 180px;
+    border-radius: 10px;
+    background-color: #0b51c5;
+    color: white;
+}
+.modal .modal-content .modal-body .btn__with-login-facebook .fa-facebook {
+    border-right: 1px solid white;
+}
+.modal .modal-content .modal-body .btn__with-login-google .btn-google {
+    width: 180px;
+    border-radius: 10px;
+    background-color: #F6921E;
+}
+.modal .modal-content .modal-body .btn__with-login-google .btn-google:hover {
+    background-color: #0b51c5;
+    color: white;
+}
+.modal .modal-content .modal-body .btn__with-login-google .fa-google {
+    border-right: 1px solid white;
+}
+.modal .modal-content .modal-body .white-color hr {
+    border-top: 1px solid white !important;
+}
+.modal .modal-content .modal-body #background__login {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    justify-content: center;
+}
+.modal .modal-content .modal-body #background__login .email__input {
+    width: 95%;
+    margin-top:20px;
+    margin-left: 10px;  
+}
+.modal .modal-content .modal-body #background__login .password__input {
+    width: 95%;
+    margin-top:20px;
+    margin-left: 10px;  
+}
+.modal .modal-content .modal-body #background__login .btn-masuk {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #007bff; 
+}
+.modal .modal-content .modal-body #background__login .btn-masuk:hover {
+    background-color: #007bff; 
+    color: white;
+}
+.modal-footer {
+    border-top: none !important;
+    justify-content: center;
+
+}
+.modal-footer a{
+   margin-top: -10px;
+   margin-bottom: 20px;
+   color: white;
+    
+}
+
+/** END MODAL LOGIN **/
+/**===============home_background=====================**/
+
+/**====================================**/
+/** Live Streaming Section **/
+
+/**liveBase**/
+.livestream .item-color {
+    color: white !important;
+}
+.navbar-live {
+    background-color: #1c2331 !important;
+}
+/**End LiveBase**/
+
+/** SECTION 1 **/
+#live-section-1 {
+    /* background-image: linear-gradient(#322d69, #1f1f54, #202278) !important;
+     */
+     background-image: linear-gradient(#313132, #222224, #272729);
+}
+.custom-header-top {
+    padding-top: 100px; 
+}
+.container-fluid {
+    height: 100% !important;
+}
+
+@media (max-width: 768px) {
+    iframe {
+        width: 460;
+        height: 215 
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    
+  }
+
+/** END SECTION 1 **/
+
+/** END Live Streaming Section **/
+/**====================================**/
