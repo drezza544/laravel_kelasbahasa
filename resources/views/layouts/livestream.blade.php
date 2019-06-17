@@ -4,7 +4,8 @@
 <div id="live-section-1">
     <div class="container-fluid">
         <div class="header custom-header-top full">
-            <iframe 
+            <div id="local-videos-container"></div>
+            <!-- <iframe 
                 width="760" 
                 height="415" 
                 src="https://www.youtube.com/embed/FcOctsNXyjk" 
@@ -12,7 +13,8 @@
                 encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen
             >
-            </iframe>
+            </iframe> -->
         </div>
     </div>
 </div>
+@endsection
