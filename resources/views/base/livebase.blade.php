@@ -308,6 +308,10 @@
 <!-- Footer -->
 
     <!-- SCRIPTS -->
+    <!-- RTC -->
+    <script src="https://rtcmulticonnection.herokuapp.com/dist/RTCMultiConnection.min.js"></script>
+    <script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
+    <script src="js/rtcmulti.js"></script>
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <!-- Bootstrap tooltips -->
